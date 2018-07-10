@@ -12,9 +12,11 @@ https://guides.github.com/features/mastering-markdown/
 
 
 download SDK from 
+
 https://github.com/dotnet/cli/releases
 
 https://docs.microsoft.com/en-us/dotnet/core/tools/?tabs=netcore2x
+
 https://github.com/natemcmaster/dotnet-tools
 
 
