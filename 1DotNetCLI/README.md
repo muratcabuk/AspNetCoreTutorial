@@ -1,6 +1,6 @@
 DotnetCLI
 
-* dotnet new
+* ## DOTNET NEW
 
 https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-new?tabs=netcore21
 
@@ -9,7 +9,7 @@ create a solution file
 
     dotnet new  sln -n DotNetCLI
 
-create a Class Library project 
+create a Class Library project
 
     dotnet new classlib -n DotNetCLI.DataAccess
 
@@ -52,7 +52,7 @@ https://docs.microsoft.com/en-gb/nuget/reference/nuspec
         <description>
         Creates the murat cabuk class lib app
         </description>
-        <authors>Murat Cabuk</authors>      
+        <authors>Murat Cabuk</authors>
     </metadata>
 
     <contentFiles>
@@ -64,14 +64,26 @@ https://docs.microsoft.com/en-gb/nuget/reference/nuspec
 
 3. create a package 
 
-    //nuget pack <PATH_TO_NUSPEC_FILE>
+nuget pack <PATH_TO_NUSPEC_FILE>
+    
     nuget pack /MuratCabuk.ClassLibrary.CSharp/MuratCabuk.ClassLibraryTemplate.CSharp.nuspec
 
 
+4. Installing a template
+
+    To install a template from a NuGet package stored at nuget.org
+    dotnet new -i <NUGET_PACKAGE_ID>
+
+    or To install a template from a local nupkg file  
+    dotnet new -i <PATH_TO_NUPKG_FILE>
+
+    or To install a template from a file system directory
+    dotnet new -i <FILE_SYSTEM_DIRECTORY>
 
 
-custom template from microsoft 
+custom template from microsoft
 
 https://github.com/dotnet/dotnet-template-samples
 
-    create new 
+
+

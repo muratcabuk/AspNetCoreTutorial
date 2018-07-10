@@ -1,9 +1,0 @@
-/media/muratcabuk/Files/Projects/GitHub/AspNetCoreTutorial/1DotNetCLI/MuratCabuk.ClassLibrary.CSharp/obj/Debug/netstandard2.0/MuratCabuk.ClassLibrary.CSharp.csprojAssemblyReference.cache
-/media/muratcabuk/Files/Projects/GitHub/AspNetCoreTutorial/1DotNetCLI/MuratCabuk.ClassLibrary.CSharp/obj/Debug/netstandard2.0/MuratCabuk.ClassLibrary.CSharp.csproj.CoreCompileInputs.cache
-/media/muratcabuk/Files/Projects/GitHub/AspNetCoreTutorial/1DotNetCLI/MuratCabuk.ClassLibrary.CSharp/obj/Debug/netstandard2.0/MuratCabuk.ClassLibrary.CSharp.AssemblyInfoInputs.cache
-/media/muratcabuk/Files/Projects/GitHub/AspNetCoreTutorial/1DotNetCLI/MuratCabuk.ClassLibrary.CSharp/obj/Debug/netstandard2.0/MuratCabuk.ClassLibrary.CSharp.AssemblyInfo.cs
-/media/muratcabuk/Files/Projects/GitHub/AspNetCoreTutorial/1DotNetCLI/MuratCabuk.ClassLibrary.CSharp/bin/Debug/netstandard2.0/MuratCabuk.ClassLibrary.CSharp.deps.json
-/media/muratcabuk/Files/Projects/GitHub/AspNetCoreTutorial/1DotNetCLI/MuratCabuk.ClassLibrary.CSharp/bin/Debug/netstandard2.0/MuratCabuk.ClassLibrary.CSharp.dll
-/media/muratcabuk/Files/Projects/GitHub/AspNetCoreTutorial/1DotNetCLI/MuratCabuk.ClassLibrary.CSharp/bin/Debug/netstandard2.0/MuratCabuk.ClassLibrary.CSharp.pdb
-/media/muratcabuk/Files/Projects/GitHub/AspNetCoreTutorial/1DotNetCLI/MuratCabuk.ClassLibrary.CSharp/obj/Debug/netstandard2.0/MuratCabuk.ClassLibrary.CSharp.dll
-/media/muratcabuk/Files/Projects/GitHub/AspNetCoreTutorial/1DotNetCLI/MuratCabuk.ClassLibrary.CSharp/obj/Debug/netstandard2.0/MuratCabuk.ClassLibrary.CSharp.pdb
