@@ -1,0 +1,11 @@
+{
+
+    "$schema": "http://json.schemastore.org/template",
+    "author": "Murat Cabuk",
+    "classifications": [ "MyDirectory", "MyClassLibrary" ],
+    "identity": "MuratCabuk.ClassLibrary.CSharp",
+    "name": "Murat Cabuk Class Library",
+    "shortName": "muratcabukclslib",
+    "sourceName": "MuratCabuk.ClassLibrary.CSharp",
+    "language" : "[C#]"
+}

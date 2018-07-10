@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+
+  <!--we dodnt need to add the following lines in dotnet core anymore-->
+  
+  <!--ItemGroup>  
+  <Compile Include="**\*.cs" Link="MySharedClass.cs" />
+</ItemGroup-->  
+
+
+</Project>
