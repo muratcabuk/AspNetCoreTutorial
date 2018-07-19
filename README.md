@@ -22,3 +22,9 @@ https://github.com/natemcmaster/dotnet-tools
 
 ## Entity Framework
 
+
+
+## Proxy and Load Balancing
+
+https://docs.microsoft.com/en-us/aspnet/core/host-and-deploy/proxy-load-balancer?view=aspnetcore-2.1  
+
