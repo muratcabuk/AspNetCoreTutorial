@@ -20,11 +20,19 @@ https://docs.microsoft.com/en-us/dotnet/core/tools/?tabs=netcore2x
 https://github.com/natemcmaster/dotnet-tools
 
 
-## Entity Framework
+## Entity Framework Core
+
+https://docs.microsoft.com/en-us/ef/core/get-started/install/
 
 
 
 ## Proxy and Load Balancing
 
 https://docs.microsoft.com/en-us/aspnet/core/host-and-deploy/proxy-load-balancer?view=aspnetcore-2.1  
+
+
+
+## Sources 
+
+https://docs.microsoft.com/en-us/ef/core/get-started/install/
 
