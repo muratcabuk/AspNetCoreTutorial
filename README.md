@@ -34,5 +34,5 @@ https://docs.microsoft.com/en-us/aspnet/core/host-and-deploy/proxy-load-balancer
 
 ## Sources 
 
-https://docs.microsoft.com/en-us/ef/core/get-started/install/
+http://www.talkingdotnet.com/asp-net-core-post/
 
