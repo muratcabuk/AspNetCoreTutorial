@@ -1,6 +1,6 @@
 DotnetCLI
 
-* # DOTNET NEW
+# DOTNET NEW
 
 https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-new?tabs=netcore21
 
@@ -119,7 +119,7 @@ also visit the foloowing address for project template options
 https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-new?tabs=netcore21#template-options
 
 
-## DOTNET NEW OPTIONS
+## dotnet new options
 
 Project Temeplate List
 
