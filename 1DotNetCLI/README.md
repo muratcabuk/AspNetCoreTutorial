@@ -113,3 +113,39 @@ custom template from microsoft
 
 https://github.com/dotnet/dotnet-template-samples
 https://dotnetnew.azurewebsites.net/
+
+also visit the foloowing address for project template options
+
+https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-new?tabs=netcore21#template-options
+
+
+## DOTNET NEW OPTIONS
+
+Project Temeplate List
+
+    dotnet new -l
+
+Project language
+
+    dotnet new console -lang "c#" 
+
+Project Namespace and name
+
+    dotnet new console -o muratcabuk.DAL
+
+Item Type List.  Predefined values are "project", "item" or "other".
+sln, page, globaljson, webconfig ... etc
+
+    dotnet new --type 
+    dotnet new --type sln
+   
+Framework version
+
+    dotnet new -f netcoreapp2.0
+    or
+    dotnet new -f netstandard2.0
+
+https://github.com/dotnet/docs/blob/master/docs/core/tools/dotnet-new.md
+
+
+
