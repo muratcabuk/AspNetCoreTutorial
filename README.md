@@ -7,6 +7,11 @@ http://commonmark.org/help/tutorial/index.html
 https://guides.github.com/features/mastering-markdown/
 
 
+## Web Framework Benchmarks
+
+https://www.techempower.com/benchmarks/#section=data-r16&hw=cl&test=plaintext
+
+
 ## [DotNet CLI](https://github.com/muratcabuk/AspNetCoreTutorial/tree/master/1DotNetCLI)
 
 
