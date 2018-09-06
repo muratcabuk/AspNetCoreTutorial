@@ -236,6 +236,89 @@ Build the project and use the specified NuGet package source during the restore 
 
     dotnet build --source c:\packages\mypackages
 
+# DOTNET (Nuget Commands)
+source : https://docs.microsoft.com/en-us/nuget/tools/dotnet-commands 
+
+### dotnet add package
+
+Adds a package reference to the project file, then runs dotnet restore to install the package.
+    
+    dotnet add package
+    # example
+    dotnet add package Newtonsoft.Json
+#### dotnet add options
+
+    -h|--help
+
+Prints out a short help for the command.
+
+    -f|--framework <FRAMEWORK>
+
+Adds a package reference only when targeting a specific framework.
+
+    -n|--no-restore
+
+Adds a package reference without performing a restore preview and compatibility check.
+
+    --package-directory <PACKAGE_DIRECTORY>
+
+Restores the package to the specified directory.
+
+    -s|--source <SOURCE>
+
+Uses a specific NuGet package source during the restore operation.
+
+    -v|--version <VERSION>
+
+### dotnet remove package
+
+    dotnet remove package
+
+### dotnet restore
+ Restores the dependencies and tools of a project.
+ 
+### (Package creation) dotnet pack 
+
+The dotnet pack command builds the project and creates NuGet packages. The result of this command is a NuGet package. If the --include-symbols option is present, another package containing the debug symbols is created.
+    
+    dotnet pack ~/projects/app1/project.csproj --output [foldername]
+ ### dotnet push
+ 
+The dotnet nuget push command pushes a package to the server and publishes it. The push command uses server and credential details found in the system's NuGet config file or chain of config files. For more information on config files.
+
+#### dotnet push example
+
+Pushes foo.nupkg to the default push source, specifying an API key:
+
+    dotnet nuget push foo.nupkg -k 4003d786-cc37-4004-bfdf-c4f3e8ef9b3a
+
+Push foo.nupkg to the custom push source http://customsource, specifying an API key:
+
+    dotnet nuget push foo.nupkg -k 4003d786-cc37-4004-bfdf-c4f3e8ef9b3a -s http://customsource/
+
+Pushes foo.nupkg to the default push source:
+
+    dotnet nuget push foo.nupkg
+
+Pushes foo.symbols.nupkg to the default symbols source:
+
+    dotnet nuget push foo.symbols.nupkg
+
+Pushes foo.nupkg to the default push source, specifying a 360-second timeout:
+
+    dotnet nuget push foo.nupkg --timeout 360
+
+Pushes all .nupkg files in the current directory to the default push source:
+
+    dotnet nuget push *.nupkg
+    
+
+
+
+
+
+    
+
 
 
 
