@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  myjwtokenapp:
+    image: myjwtokenapp
+    build:
+      context: ./MyJWTokenApp
+      dockerfile: Dockerfile

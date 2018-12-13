@@ -1,0 +1,95 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+
+
+
+
+<script type="text/javascript">
+    //Scriptler site.js dosyasına taşındı
+
+
+
+    //window.onload = ()=>{
+
+
+
+    //    var config = {
+    //        authority: "http://localhost:5000",
+    //        client_id: "client1",
+    //        redirect_uri: "http://localhost:5003/About",
+    //        reponse_type: "id_token token",
+    //        scope: "MyFirstApi"
+    //    };
+
+    //    var manager = new Oidc.UserManager(config);
+
+    //    manager.getUser().then(function (user) {
+    //        debugger
+    //        if (user) {
+    //            alert("User " + user.profile)
+    //        }
+    //    })
+
+
+    //    function login() {
+    //        debugger
+
+    //        manager.signinRedirect();
+    //    }
+
+    //    function log() {
+
+    //        document.getElementById("result").innerText = "";
+
+    //        //Array.prototype.forEach.call(arguments, function (msg) { 
+
+    //        //    function  (msg) {
+    //        //        if (msg instanceof Error) {
+    //        //            msg = "Error: " + msg.message;
+    //        //        }
+    //        //        else if (typeof msg !== "string") {
+    //        //            msg = JSON.stringify(msg, null, 2);
+    //        //        }
+    //        //        document.getElementById("result").innerHTML += msg + "\r \n";
+    //        //    }
+    //        //})
+    //    }
+
+
+    //    function api() {
+
+    //        manager.getUser().then(function (user) {
+
+    //            var url = "http://localhost:5001";
+    //            var xhr = new XMLHttpRequest();
+    //            xhr.open("GET", url);
+
+    //            xhr.onload = function () {
+
+    //                log(xhr.status, JSON, parse(xhr.responseText));
+    //            }
+    //            xhr.setRequestHeader("Azuthorization", "Bearer" + user.access_token);
+    //            xhr.send();
+    //        })
+    //    }
+    
+    ////}
+
+
+
+
+</script>
+
+
+<div class="row">
+    <div class="col-md-3">
+       
+<input type="button" value="Login" onclick="login()" />
+<pre id="result"></pre>
+
+    </div>
+</div>

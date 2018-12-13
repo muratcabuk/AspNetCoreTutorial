@@ -1,0 +1,11 @@
+C:\mmm4\MVCToken\MyJWTokenApp\ApiTestConsoleApp\bin\Debug\netcoreapp2.0\ApiTestConsoleApp.deps.json
+C:\mmm4\MVCToken\MyJWTokenApp\ApiTestConsoleApp\bin\Debug\netcoreapp2.0\ApiTestConsoleApp.runtimeconfig.json
+C:\mmm4\MVCToken\MyJWTokenApp\ApiTestConsoleApp\bin\Debug\netcoreapp2.0\ApiTestConsoleApp.runtimeconfig.dev.json
+C:\mmm4\MVCToken\MyJWTokenApp\ApiTestConsoleApp\bin\Debug\netcoreapp2.0\ApiTestConsoleApp.dll
+C:\mmm4\MVCToken\MyJWTokenApp\ApiTestConsoleApp\bin\Debug\netcoreapp2.0\ApiTestConsoleApp.pdb
+C:\mmm4\MVCToken\MyJWTokenApp\ApiTestConsoleApp\obj\Debug\netcoreapp2.0\ApiTestConsoleApp.csprojResolveAssemblyReference.cache
+C:\mmm4\MVCToken\MyJWTokenApp\ApiTestConsoleApp\obj\Debug\netcoreapp2.0\ApiTestConsoleApp.csproj.CoreCompileInputs.cache
+C:\mmm4\MVCToken\MyJWTokenApp\ApiTestConsoleApp\obj\Debug\netcoreapp2.0\ApiTestConsoleApp.AssemblyInfoInputs.cache
+C:\mmm4\MVCToken\MyJWTokenApp\ApiTestConsoleApp\obj\Debug\netcoreapp2.0\ApiTestConsoleApp.AssemblyInfo.cs
+C:\mmm4\MVCToken\MyJWTokenApp\ApiTestConsoleApp\obj\Debug\netcoreapp2.0\ApiTestConsoleApp.dll
+C:\mmm4\MVCToken\MyJWTokenApp\ApiTestConsoleApp\obj\Debug\netcoreapp2.0\ApiTestConsoleApp.pdb

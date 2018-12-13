@@ -1,0 +1,11 @@
+C:\mmm4\APITokenConsoleApp1\APITokenConsoleApp1\bin\Debug\netcoreapp2.0\APITokenConsoleApp1.deps.json
+C:\mmm4\APITokenConsoleApp1\APITokenConsoleApp1\bin\Debug\netcoreapp2.0\APITokenConsoleApp1.runtimeconfig.json
+C:\mmm4\APITokenConsoleApp1\APITokenConsoleApp1\bin\Debug\netcoreapp2.0\APITokenConsoleApp1.runtimeconfig.dev.json
+C:\mmm4\APITokenConsoleApp1\APITokenConsoleApp1\bin\Debug\netcoreapp2.0\APITokenConsoleApp1.dll
+C:\mmm4\APITokenConsoleApp1\APITokenConsoleApp1\bin\Debug\netcoreapp2.0\APITokenConsoleApp1.pdb
+C:\mmm4\APITokenConsoleApp1\APITokenConsoleApp1\obj\Debug\netcoreapp2.0\APITokenConsoleApp1.csprojResolveAssemblyReference.cache
+C:\mmm4\APITokenConsoleApp1\APITokenConsoleApp1\obj\Debug\netcoreapp2.0\APITokenConsoleApp1.csproj.CoreCompileInputs.cache
+C:\mmm4\APITokenConsoleApp1\APITokenConsoleApp1\obj\Debug\netcoreapp2.0\APITokenConsoleApp1.AssemblyInfoInputs.cache
+C:\mmm4\APITokenConsoleApp1\APITokenConsoleApp1\obj\Debug\netcoreapp2.0\APITokenConsoleApp1.AssemblyInfo.cs
+C:\mmm4\APITokenConsoleApp1\APITokenConsoleApp1\obj\Debug\netcoreapp2.0\APITokenConsoleApp1.dll
+C:\mmm4\APITokenConsoleApp1\APITokenConsoleApp1\obj\Debug\netcoreapp2.0\APITokenConsoleApp1.pdb

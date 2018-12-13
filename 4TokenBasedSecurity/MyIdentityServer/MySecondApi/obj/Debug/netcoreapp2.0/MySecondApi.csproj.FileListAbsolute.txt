@@ -1,0 +1,11 @@
+C:\mmm4\MVCToken\MyIdentityServer\MySecondApi\bin\Debug\netcoreapp2.0\MySecondApi.deps.json
+C:\mmm4\MVCToken\MyIdentityServer\MySecondApi\bin\Debug\netcoreapp2.0\MySecondApi.runtimeconfig.json
+C:\mmm4\MVCToken\MyIdentityServer\MySecondApi\bin\Debug\netcoreapp2.0\MySecondApi.runtimeconfig.dev.json
+C:\mmm4\MVCToken\MyIdentityServer\MySecondApi\bin\Debug\netcoreapp2.0\MySecondApi.dll
+C:\mmm4\MVCToken\MyIdentityServer\MySecondApi\obj\Debug\netcoreapp2.0\MySecondApi.csprojResolveAssemblyReference.cache
+C:\mmm4\MVCToken\MyIdentityServer\MySecondApi\obj\Debug\netcoreapp2.0\MySecondApi.csproj.CoreCompileInputs.cache
+C:\mmm4\MVCToken\MyIdentityServer\MySecondApi\obj\Debug\netcoreapp2.0\MySecondApi.AssemblyInfoInputs.cache
+C:\mmm4\MVCToken\MyIdentityServer\MySecondApi\obj\Debug\netcoreapp2.0\MySecondApi.AssemblyInfo.cs
+C:\mmm4\MVCToken\MyIdentityServer\MySecondApi\bin\Debug\netcoreapp2.0\MySecondApi.pdb
+C:\mmm4\MVCToken\MyIdentityServer\MySecondApi\obj\Debug\netcoreapp2.0\MySecondApi.dll
+C:\mmm4\MVCToken\MyIdentityServer\MySecondApi\obj\Debug\netcoreapp2.0\MySecondApi.pdb

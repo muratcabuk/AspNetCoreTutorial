@@ -1,0 +1,11 @@
+C:\mmm4\MVCToken\MyJWTokenApp\MyJWTokenApp\bin\Debug\netcoreapp2.0\MyJWTokenApp.deps.json
+C:\mmm4\MVCToken\MyJWTokenApp\MyJWTokenApp\bin\Debug\netcoreapp2.0\MyJWTokenApp.runtimeconfig.json
+C:\mmm4\MVCToken\MyJWTokenApp\MyJWTokenApp\bin\Debug\netcoreapp2.0\MyJWTokenApp.runtimeconfig.dev.json
+C:\mmm4\MVCToken\MyJWTokenApp\MyJWTokenApp\bin\Debug\netcoreapp2.0\MyJWTokenApp.dll
+C:\mmm4\MVCToken\MyJWTokenApp\MyJWTokenApp\obj\Debug\netcoreapp2.0\MyJWTokenApp.csprojResolveAssemblyReference.cache
+C:\mmm4\MVCToken\MyJWTokenApp\MyJWTokenApp\obj\Debug\netcoreapp2.0\MyJWTokenApp.csproj.CoreCompileInputs.cache
+C:\mmm4\MVCToken\MyJWTokenApp\MyJWTokenApp\obj\Debug\netcoreapp2.0\MyJWTokenApp.AssemblyInfoInputs.cache
+C:\mmm4\MVCToken\MyJWTokenApp\MyJWTokenApp\obj\Debug\netcoreapp2.0\MyJWTokenApp.AssemblyInfo.cs
+C:\mmm4\MVCToken\MyJWTokenApp\MyJWTokenApp\bin\Debug\netcoreapp2.0\MyJWTokenApp.pdb
+C:\mmm4\MVCToken\MyJWTokenApp\MyJWTokenApp\obj\Debug\netcoreapp2.0\MyJWTokenApp.dll
+C:\mmm4\MVCToken\MyJWTokenApp\MyJWTokenApp\obj\Debug\netcoreapp2.0\MyJWTokenApp.pdb

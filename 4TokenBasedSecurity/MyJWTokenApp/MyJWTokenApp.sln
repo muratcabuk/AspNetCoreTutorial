@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyJWTokenApp", "MyJWTokenApp\MyJWTokenApp.csproj", "{32F0AF3D-F1B6-4DD9-A4D2-2E488305AABA}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{FD9C1ECD-F978-4E6C-9FA5-1DAB0605601D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{32F0AF3D-F1B6-4DD9-A4D2-2E488305AABA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32F0AF3D-F1B6-4DD9-A4D2-2E488305AABA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32F0AF3D-F1B6-4DD9-A4D2-2E488305AABA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32F0AF3D-F1B6-4DD9-A4D2-2E488305AABA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD9C1ECD-F978-4E6C-9FA5-1DAB0605601D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD9C1ECD-F978-4E6C-9FA5-1DAB0605601D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD9C1ECD-F978-4E6C-9FA5-1DAB0605601D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD9C1ECD-F978-4E6C-9FA5-1DAB0605601D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D27F6CE4-B6BF-4A6E-9F75-C469CF562636}
+	EndGlobalSection
+EndGlobal
