@@ -48,6 +48,12 @@ https://docs.microsoft.com/en-us/aspnet/core/host-and-deploy/proxy-load-balancer
 
 #### (Nginx) [https://github.com/muratcabuk/NginxForDotnetCore]
 
+#### multitanent app
+
+https://medium.com/rtl-tech/building-multi-tenant-asp-net-core-applications-with-orchard-core-dffb404558c3
+
+
+
 
 
 #### Sources 
