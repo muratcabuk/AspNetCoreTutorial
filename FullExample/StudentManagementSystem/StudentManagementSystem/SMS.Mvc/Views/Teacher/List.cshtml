@@ -1,0 +1,82 @@
+﻿@using Microsoft.CodeAnalysis.Options
+@using SMS.Core.Entities
+@using SMS.Mvc.Models.Teacher
+@model SMS.Mvc.Models.Teacher.TeacherListViewModel
+@{
+
+    var teacherFilterViewModel = (ViewBag.TeacherFilterViewModel as TeacherFilterViewModel);
+
+}
+
+@Layout = "~/Views/Shared/_Layout.cshtml";
+
+
+<h1>Student List</h1>
+
+<form asp-controller="Teacher" asp-action="List" method="post">
+
+    <label>Firstname:</label>
+    <input type="text" id="Firstname" name="Firstname" value="@teacherFilterViewModel.Firstname" />
+
+    <br /> 
+
+    <label>Lastname:</label>
+    <input type="text" id="Lastname" name="Lastname" value="@teacherFilterViewModel.Lastname" />
+
+
+    <br />
+
+    <label>Birthdate:</label>
+    <input type="date" id="Birthdate" name="Birthdate" value="@teacherFilterViewModel.Birthdate" />
+
+
+    <br />
+
+    <label>Gender:</label>
+    <select id="Gender" name="Gender">
+        @foreach (var item in (@teacherFilterViewModel.Genders as List<Option<int, string>>))
+        {
+            <option value="@item.Title">@item.Title</option>
+        }
+
+    </select>
+
+    <br>
+    <label>Time</label>
+    <span>@Html.DisplayFor(Model => Model.TimeText)</span>
+    
+    <br/>
+    
+    <input type="submit" value="Submit"/>
+
+
+</form>
+
+
+<table>
+    <thead>
+        <caption>Student List</caption>
+        <tr>
+            <th>Id</th>
+            <th>Student Id</th>
+            <th>Fullname</th>
+            <th>Birthday</th>
+
+        </tr>
+        @foreach (var teacher in Model.Teachers)
+        {
+            <tr>
+
+                <td>@teacher.Id)</td>
+                <td>@string.Format($"{teacher.FirstName} {teacher.LastName}") </td>
+                <td>@teacher.BirthDate</td>
+
+
+
+
+
+            </tr>
+        }
+    </thead>
+
+</table>

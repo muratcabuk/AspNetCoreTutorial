@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="tr-TR" original="SMS.GLOBALIZAITON/RESOURCES/RESOURCE.RESX" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="4.0.6915.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="SMS.GLOBALIZAITON/RESOURCES/RESOURCE.RESX" datatype="resx">
+        <trans-unit id="English" translate="yes" xml:space="preserve">
+          <source>English</source>
+          <target state="translated">İngilizce</target>
+        </trans-unit>
+        <trans-unit id="Hello" translate="yes" xml:space="preserve">
+          <source>Hello</source>
+          <target state="translated">Merhaba</target>
+        </trans-unit>
+        <trans-unit id="Female" translate="yes" xml:space="preserve">
+          <source>Female</source>
+          <target state="translated" state-qualifier="tm-suggestion">Kadın</target>
+        </trans-unit>
+        <trans-unit id="Male" translate="yes" xml:space="preserve">
+          <source>Male</source>
+          <target state="translated" state-qualifier="tm-suggestion">Erkek</target>
+        </trans-unit>
+        <trans-unit id="School" translate="yes" xml:space="preserve">
+          <source>School</source>
+          <target state="translated" state-qualifier="tm-suggestion">Okul</target>
+        </trans-unit>
+        <trans-unit id="Student" translate="yes" xml:space="preserve">
+          <source>Student</source>
+          <target state="translated" state-qualifier="tm-suggestion">Öğrenci</target>
+        </trans-unit>
+        <trans-unit id="Teacher" translate="yes" xml:space="preserve">
+          <source>Teacher</source>
+          <target state="translated" state-qualifier="tm-suggestion">Öğretmen</target>
+        </trans-unit>
+        <trans-unit id="Autumn" translate="yes" xml:space="preserve">
+          <source>Autumn</source>
+          <target state="translated" state-qualifier="tm-suggestion">Sonbahar</target>
+        </trans-unit>
+        <trans-unit id="Semester" translate="yes" xml:space="preserve">
+          <source>Semester</source>
+          <target state="translated">Dönem
+</target>
+        </trans-unit>
+        <trans-unit id="Spring" translate="yes" xml:space="preserve">
+          <source>Spring</source>
+          <target state="translated">İlkbahar</target>
+        </trans-unit>
+        <trans-unit id="Summer" translate="yes" xml:space="preserve">
+          <source>Summer</source>
+          <target state="translated">Yaz</target>
+        </trans-unit>
+        <trans-unit id="Term" translate="yes" xml:space="preserve">
+          <source>Term</source>
+          <target state="translated">Yarıyıl</target>
+        </trans-unit>
+        <trans-unit id="Winter" translate="yes" xml:space="preserve">
+          <source>Winter</source>
+          <target state="translated" state-qualifier="tm-suggestion">Kış</target>
+        </trans-unit>
+        <trans-unit id="OperationCompletedSuccessfully" translate="yes" xml:space="preserve">
+          <source>Operation completed successfully</source>
+          <target state="needs-review-translation">Operation Completed Successfully</target>
+          <note from="MultilingualUpdate" annotates="source" priority="2">Please verify the translation’s accuracy as the source string was updated after it was translated.</note>
+        </trans-unit>
+        <trans-unit id="Successful" translate="yes" xml:space="preserve">
+          <source>Successful</source>
+          <target state="translated">Successful</target>
+        </trans-unit>
+        <trans-unit id="Select" translate="yes" xml:space="preserve">
+          <source>Select</source>
+          <target state="new">Select</target>
+        </trans-unit>
+        <trans-unit id="Unsuccessfull" translate="yes" xml:space="preserve">
+          <source>Unsuccessfull</source>
+          <target state="new">Unsuccessfull</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

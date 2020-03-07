@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <NeutralLanguage>English (United States)</NeutralLanguage>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="9.0.0" />
+    <PackageReference Include="AutoMapper.Extensions.ExpressionMapping" Version="3.0.6" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="7.0.0" />
+    <PackageReference Include="FluentSpecification" Version="1.1.0" />
+    <PackageReference Include="LazyCache.AspNetCore" Version="2.0.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SMS.Core\SMS.Core.csproj" />
+    <ProjectReference Include="..\SMS.DAL\SMS.DAL.csproj" />
+  </ItemGroup>
+
+</Project>

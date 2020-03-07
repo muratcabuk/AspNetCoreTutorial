@@ -1,0 +1,71 @@
+﻿@using SMS.Core.Web.Extensions
+@model SMS.Mvc.Models.Student.StudentAddUpdateViewModel
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        
+        <div class="alert-info">@Model.Message</div>
+
+        <form asp-action="AddUpdate">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <input asp-for="Student.Id" type="hidden" class="form-control"/>
+            </div>
+            <div class="form-group">
+                <label asp-for="Student.FirstName" class="control-label"></label>
+                <input asp-for="Student.FirstName" class="form-control"/>
+                <span asp-validation-for="Student.FirstName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Student.LastName" class="control-label"></label>
+                <input asp-for="Student.LastName" class="form-control"/>
+                <span asp-validation-for="Student.LastName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Student.BirthDate" class="control-label"></label>
+                <input asp-for="Student.BirthDate" type="date" class="form-control"/>
+                <span asp-validation-for="Student.BirthDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Student.StudentId" class="control-label"></label>
+                <input asp-for="Student.StudentId" class="form-control"/>
+                <span asp-validation-for="Student.StudentId" class="text-danger"></span>
+            </div>
+
+
+
+            <div class="form-group">
+                <label asp-for="Student.Gender" class="control-label"></label>
+
+                <select asp-for="Student.Gender"
+                        asp-items="@Model.Genders.ToSelectList()">
+
+                </select>
+
+
+                <span asp-validation-for="Student.Gender" class="text-danger"></span>
+            </div>
+
+
+            <div class="form-group">
+                <label asp-for="Student.Age" class="control-label"></label>
+                <input asp-for="Student.Age" class="form-control"/>
+                <span asp-validation-for="Student.Age" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary"/>
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="List">Back to List</a>
+</div>
+

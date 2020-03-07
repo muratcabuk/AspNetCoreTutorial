@@ -1,0 +1,78 @@
+﻿@using SMS.Core.Web.Extensions
+@model (SMS.Mvc.Models.Student.StudentListViewModel StudentList, SMS.Mvc.Models.Student.StudentFilterViewModel StudentFilter)
+
+@Layout = "~/Views/Shared/_Layout.cshtml";
+
+
+<h1>Student List</h1>
+
+
+
+<form asp-action="List">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <div class="form-group">
+        <input asp-for="StudentFilter.Firstname" type="hidden" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="StudentFilter.Firstname" class="control-label"></label>
+        <input asp-for="StudentFilter.Firstname" class="form-control" />
+        <span asp-validation-for="StudentFilter.Firstname" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="StudentFilter.Lastname" class="control-label"></label>
+        <input asp-for="StudentFilter.Lastname" class="form-control" />
+        <span asp-validation-for="StudentFilter.Lastname" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="StudentFilter.Birthdate" class="control-label"></label>
+        <input asp-for="StudentFilter.Birthdate" type="date" class="form-control" />
+        <span asp-validation-for="StudentFilter.Birthdate" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="StudentFilter.Gender" class="control-label"></label>
+
+        <select asp-for="StudentFilter.Gender"
+                asp-items="@Model.StudentFilter.Genders.ToSelectList()">
+        </select>
+
+
+        <span asp-validation-for="StudentFilter.Gender" class="text-danger"></span>
+    </div>
+
+    <br />
+    <input type="submit" value="Submit" />
+
+
+</form>
+
+
+
+
+
+<table>
+    <thead>
+        <caption>Student List</caption>
+        <tr>
+            <th>Id</th>
+            <th>Student Id</th>
+            <th>Fullname</th>
+            <th>Birthday</th>
+
+        </tr>
+        @foreach (var student in Model.StudentList.Students)
+        {
+            <tr>
+
+                <td>@student.Id)</td>
+                <td>@student.StudentId </td>
+                <td>@string.Format($"{student.FirstName} {student.LastName}") </td>
+                <td>@student.BirthDate</td>
+
+            </tr>
+        }
+    </thead>
+
+</table>
+
+
+

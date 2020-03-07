@@ -1,0 +1,39 @@
+{
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:5000/",
+      "sslPort": 0
+    }
+  },
+  "profiles": {
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_My_Environment": "1",
+        "ASPNETCORE_DETAILEDERRORS": "1",
+        "ASPNETCORE_ENVIRONMENT": "Testing"
+      }
+    },
+    "EnvironmentsSample": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Testing"
+      },
+      "applicationUrl": "http://localhost:5000/"
+    },
+    "Kestrel Staging": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_My_Environment": "1",
+        "ASPNETCORE_DETAILEDERRORS": "1",
+        "ASPNETCORE_ENVIRONMENT": "Testing"
+      },
+      "applicationUrl": "http://localhost:5000/"
+    }
+  }
+}

@@ -1,0 +1,57 @@
+﻿@using SMS.Core.Web.Extensions
+@model SMS.Mvc.Models.Teacher.TeacherAddUpdateViewModel
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Merhaba</h1>
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        
+        <div class="alert-info">@Model.Message</div>
+
+        <form asp-action="AddUpdate">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <input asp-for="Teacher.Id" type="hidden" class="form-control"/>
+            </div>
+            <div class="form-group">
+                <label asp-for="Teacher.FirstName" class="control-label"></label>
+                <input asp-for="Teacher.FirstName" class="form-control"/>
+                <span asp-validation-for="Teacher.FirstName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Teacher.LastName" class="control-label"></label>
+                <input asp-for="Teacher.LastName" class="form-control"/>
+                <span asp-validation-for="Teacher.LastName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Teacher.BirthDate" class="control-label"></label>
+                <input asp-for="Teacher.BirthDate" type="date" class="form-control"/>
+                <span asp-validation-for="Teacher.BirthDate" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Teacher.Gender" class="control-label"></label>
+
+                <select asp-for="Teacher.Gender"
+                        asp-items="@Model.Genders.ToSelectList()">
+
+                </select>
+                <span asp-validation-for="Teacher.Gender" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary"/>
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="List">Back to List</a>
+</div>
+
